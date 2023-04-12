@@ -1,0 +1,22 @@
+{% extends "base.html" %} 
+
+{% block title %}
+  
+{% endblock %}
+
+{% block content %}
+<nav>
+    <div>
+        <a href="{% url 'index' %}">
+            <span class="navTitle">Nutrition Corner</span>
+        </a>
+    </div>
+    <div>
+        <a href="#"><span>Best Sellers</span></a>
+        <a href="#"><span>Mission</span></a>
+        <a href="#"><span>Deals</span></a>
+    </div>
+</nav>
+<h1>Welcome to the Nutrition Corner!</h1>
+
+{% endblock %}
